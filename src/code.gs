@@ -3,7 +3,7 @@ function onFormSubmit(e) {
   Logger.log(e);
 //  Logger.log(event.range.getRow());
 
-  postTypetalk("myFunction"+JSON.stringify(e));
+  postTypetalk("onFormSubmit"+JSON.stringify(e));
 }
 
 function onEdit(e){
